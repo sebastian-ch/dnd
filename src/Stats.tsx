@@ -117,9 +117,6 @@ export default function Stats() {
 
   return (
     <div className="app">
-      <button className="nav-button" onClick={() => navigate('/map')}>
-        Map
-      </button>
       <div className="chart-container">
         <table className="stat-chart">
           <thead>
