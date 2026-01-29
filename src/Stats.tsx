@@ -113,7 +113,6 @@ const characters: Character[] = [
 ]
 
 export default function Stats() {
-  const navigate = useNavigate()
 
   return (
     <div className="app">
