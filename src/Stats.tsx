@@ -17,10 +17,12 @@ interface Character {
   notes: string
 }
 
+const base = import.meta.env.BASE_URL
+
 const characters: Character[] = [
   {
     name: "Cat Stevens",
-    image: "/cat.png",
+    image: `${base}cat.png`,
     race: "Catfolk",
     class: "Bard",
     hp: 8,
@@ -35,7 +37,7 @@ const characters: Character[] = [
   },
   {
     name: "Elkfor Wildwood",
-    image: "/elkfor.png",
+    image: `${base}elkfor.png`,
     race: "Hobgoblin",
     class: "Necromancer",
     hp: 8,
@@ -50,7 +52,7 @@ const characters: Character[] = [
   },
   {
     name: "Fluff",
-    image: "/fluff.png",
+    image: `${base}fluff.png`,
     race: "Gnome",
     class: "Paladin",
     hp: 12,
@@ -65,7 +67,7 @@ const characters: Character[] = [
   },
   {
     name: "Robur",
-    image: "/robur.png",
+    image: `${base}robur.png`,
     race: "Duergar",
     class: "Antipaladin",
     hp: 13,
@@ -80,7 +82,7 @@ const characters: Character[] = [
   },
   {
     name: "Sebastian",
-    image: "/sebastian.png",
+    image: `${base}sebastian.png`,
     race: "Duskwalker",
     class: "Investigator",
     hp: 8,
@@ -95,7 +97,7 @@ const characters: Character[] = [
   },
   {
     name: "Stixon",
-    image: "/stixon.png",
+    image: `${base}stixon.png`,
     race: "Wyrwood",
     class: "Ranger",
     hp: 21,
