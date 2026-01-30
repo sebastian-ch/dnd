@@ -174,7 +174,15 @@ body {
   color: #ff6b6b;
   white-space: normal;
   min-width: 100px;
+  text-align: center;
+}
+
+.value.skills {
+  font-size: 0.6rem;
+  color: #7ec8e3;
+  white-space: nowrap;
   text-align: left;
+  line-height: 1.5;
 }
 
 .value.notes {
@@ -184,6 +192,30 @@ body {
   min-width: 120px;
   text-align: left;
   line-height: 1.3;
+}
+
+.skills-row .label {
+  background: rgb(20, 30, 30);
+}
+
+.skills-row td:not(.label) {
+  background: rgba(126, 200, 227, 0.06);
+}
+
+.value.abilities {
+  font-size: 0.6rem;
+  color: #c0a0e0;
+  white-space: nowrap;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.abilities-row .label {
+  background: rgb(28, 20, 35);
+}
+
+.abilities-row td:not(.label) {
+  background: rgba(192, 160, 224, 0.06);
 }
 
 .notes-row td {
